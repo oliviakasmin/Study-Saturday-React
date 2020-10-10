@@ -12,6 +12,7 @@ const StudentList = props => {
             <th>Grades</th>
           </tr>
 
+          {/* map through students array to display full name as a row in our table */}
           {/* grabbed this mapping function from our Main.js file from cycle-1 */}
           {students.map(student => {
             return (

@@ -22,6 +22,8 @@ const SingleStudent = props => {
             <th>Subject</th>
             <th>Grade</th>
           </tr>
+
+          {/* map through tests array to display details on each row of our table */}
           {tests.map(test => {
             return (
               <tr key={test.id}>
